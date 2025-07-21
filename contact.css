@@ -1,0 +1,91 @@
+body{
+    text-align: center;
+    background-color: burlywood;
+    background-image: url(images/rezi4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.fag{
+    margin: 40px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.lasma{
+    border: 2px solid whitesmoke;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 0 16px 4px #a08358, 0 0 32px 8px #383531;
+    padding-top: 0px;
+    margin: auto;
+    width: 400px;
+    padding: 16px 8px;
+    transition: box-shadow 0.3s;
+}
+
+
+
+::placeholder{
+    color: red;
+}
+
+.btn{
+    background-color: antiquewhite;
+    color: black;
+}
+
+.btn:hover{
+    background-color: blue;
+}
+
+.mymy{
+    text-align: center;
+    padding: 3px solid black;
+    padding: 3px;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+
+div a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+div a.active{
+    color: blue;
+}
+
+.locate1 {
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(90deg, #ff9800 0%, #ff5722 100%);
+    padding: 30px 10px;
+    margin-top: 30px;
+    border-radius: 18px;
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    border: 2px solid #fff3e0;
+    letter-spacing: 1px;
+}
+
+.loc1 {
+    margin-bottom: 20px;
+    color: #ff5722;
+    font-weight: bold;
+    font-size: 1.1rem;
+    background: #fff3e0;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(255,152,0,0.12);
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
