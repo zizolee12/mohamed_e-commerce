@@ -1,0 +1,100 @@
+body{
+    background-color: burlywood;
+    color: white;
+    padding: 10px;
+    background-image: url(images/rezi2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mymy{
+    text-align: center;
+    padding: 3px solid black;
+    padding: 3px;
+    border: 0px solid whitesmoke;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+    border-radius: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+
+nav a.active{
+    color: blue;
+}
+
+.cat{
+    padding: 1px;
+    font-size: 1.2rem;
+    color: white;
+    padding-top: 30px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.myp{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.product-img{
+    border-radius: 5px solid black;
+    border: 0px solid whitesmoke;
+    width: 100%;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    grid-template-columns: repeat(auto-fit, minmax(250px, 5fr));
+    display: grid;
+}
+
+.product1{
+    padding: 15px;
+    text-align: center;
+    
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product1:hover{
+    transform: scale(1.05);
+}
